@@ -52,7 +52,7 @@ const dividir = (x, y) => {
       return 1;
     }
     while (total > 0) {
-      total = total - y;
+      total = subtrair(total - y);
       contador = contador + 1;
     }
     return contador;
