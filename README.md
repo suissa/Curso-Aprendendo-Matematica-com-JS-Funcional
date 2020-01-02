@@ -23,6 +23,7 @@ const subtrair = (x, y) => somar(x, -y)
 
 ### Multiplicar
 
+```js
 const multiplicar = (x, y) => {
   let counter = 0
   while (x) {
@@ -31,12 +32,13 @@ const multiplicar = (x, y) => {
   }
   return counter
 }
-
+```
 ### Dividir
 
 
 Criar a função da divisão utilizando um *looping* de subtrações e só pode aceitar números inteiros como parâmetro, contudo o resultado, se necessário, deve ser com decimal, exemplo:
 
+```js
 const dividir = (x, y) => {
   let total = x;
   let contador = 0;
@@ -57,6 +59,7 @@ const dividir = (x, y) => {
   }
   return false;
 }
+```
 
 ```js
 > dividir(5, 2)
